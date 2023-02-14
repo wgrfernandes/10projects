@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(114, 105, 105);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-direction: column;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  height: 80%;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+}
+
+button {
+  width: 40px;
+  font-weight: bold;
+  color: black;
+  height: 80%;
+}
