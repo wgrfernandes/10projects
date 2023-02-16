@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(76, 137, 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  color: rgb(56, 70, 82);
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid cornflowerblue;
+}
+
+input:focus {
+  outline: none;
+  border-color: rgb(69, 129, 241);
+}
+
+button {
+  cursor: pointer;
+}
+
+.button-add {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(76, 137, 250);
+  color: aliceblue;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.button-add:hover {
+  background-color: rgb(28, 65, 134);
+}
+
+.delete {
+  justify-content: right;
+  padding: 5px;
+  background-color: rgb(179, 44, 44);
+  color: rgb(255, 255, 255);
+  border: 1px;
+  border-color: rgba(73, 65, 65, 0.2);
+  border-radius: 10px;
+  font-size: 70%;
+}
+
+.delete:hover {
+  background-color: rgb(74, 14, 14);
+}
+
+.tasks {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  overflow-y: scroll;
+}
